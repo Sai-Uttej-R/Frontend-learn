@@ -1,13 +1,13 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #d6d2d2;
+  background-color: #61122f;
   font-family: 'Oxygen', sans-serif;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: #000000;
+  background-color: #f6b319;
   border-radius: 0;
   border: 0;
 }
@@ -23,10 +23,9 @@ body {
   padding-top: 25px;
 }
 .navbar-brand h1 { /* Restaurant name */
-  font-family: 'BT Futura W01', Arial, sans-serif;
-  color: #fff;
-  letter-spacing: 0.6px;
-  font-size: 0
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
@@ -38,7 +37,7 @@ body {
   text-decoration: none;
 }
 .navbar-brand p { /* Kosher cert */
-  color: #fff;
+  color: #000;
   text-transform: uppercase;
   font-size: .7em;
   margin-top: 15px;
@@ -51,7 +50,7 @@ body {
   margin-top: 10px;
 }
 #nav-list a {
-  color: #ffffff;
+  color: #951C49;
   text-align: center;
 }
 #nav-list a:hover {
@@ -75,7 +74,7 @@ body {
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #fbfbfb;
+  border: 1px solid #61122f;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
@@ -117,8 +116,8 @@ body {
 
 /* HOME PAGE */
 .container .jumbotron {
-  box-shadow: 0 0 50px #ffffff;
-  border: 2px solid #d1d1d1;
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
 }
 
 #menu-tile, #specials-tile, #map-tile {
@@ -126,7 +125,7 @@ body {
   width: 100%;
   margin-bottom: 15px;
   position: relative;
-  border: 2px solid #b0acae;
+  border: 2px solid #3F0C1F;
   overflow: hidden;
 }
 #menu-tile:hover, #specials-tile:hover, #map-tile:hover {
@@ -157,7 +156,7 @@ body {
 /* MENU CATEGORIES PAGE */
 .category-tile { 
   position: relative;
-  border: 2px solid #828181;
+  border: 2px solid #3F0C1F;
   overflow: hidden;
   width: 200px;
   height: 200px;
@@ -302,7 +301,7 @@ h3.menu-item-title {
     padding: 10px;
     border: 2px solid #fff;
     background-color: #f6b319;
-    color: #828282;
+    color: #951c49;
   }
   #xs-deliver {
     margin-top: 5px;
